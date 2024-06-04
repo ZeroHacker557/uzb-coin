@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1E0338;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #2B054A;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.profile-info {
+    margin-left: 10px;
+}
+
+.username {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.token-balance {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.token-count {
+    font-size: 3em;
+    margin: 0;
+}
+
+.token-name {
+    margin: 0;
+    color: #AAAAAA;
+}
+
+.main-button {
+    width: 120px;
+    height: 120px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out;
+}
+
+.main-button img {
+    width: 70%;
+}
+
+.main-button:active {
+    transform: scale(0.95);
+}
+
+.energy {
+    margin: 20px 0;
+}
+
+.energy-timer {
+    font-size: 0.8em;
+    color: #AAAAAA;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2B054A;
+    padding: 10px;
+}
+
+.footer-button {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    background-color: #3C0760;
+    border: none;
+    color: #ffffff;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bonus-message {
+    display: none;
+    font-size: 1.5em;
+    color: #FFD700;
+    margin-top: 20px;
+}
